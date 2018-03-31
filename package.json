@@ -1,0 +1,17 @@
+{
+  "name": "parcel-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "development": "cross-env node_modules/.bin/parcel index.html",
+    "dev": "yarn run development",
+    "production": "cross-env node_modules/.bin/parcel build index.html",
+    "prod": "yarn run production",
+    "watch": "cross-env node_modules/.bin/parcel watch index.html"
+  },
+  "dependencies": {
+    "cross-env": "^5.1.4",
+    "parcel-bundler": "^1.7.0"
+  }
+}
