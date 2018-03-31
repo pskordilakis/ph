@@ -1,10 +1,7 @@
-import Vue from 'vue';
- window.Vue = Vue;
+import Vue from 'vue'
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    message: 'Welcome to PH'
-  }
-})
-console.log('spiUno');
+import App from './App'
+
+new Vue(App).$mount('#app')
+
+console.log('spiUno')
