@@ -8,10 +8,14 @@
     "dev": "yarn run development",
     "production": "cross-env node_modules/.bin/parcel build index.html",
     "prod": "yarn run production",
-    "watch": "cross-env node_modules/.bin/parcel watch index.html"
+    "watch": "cross-env node_modules/.bin/parcel watch index.html",
+    "start": "parcel index.html"
   },
   "dependencies": {
     "cross-env": "^5.1.4",
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
     "parcel-bundler": "^1.7.0"
   }
 }
