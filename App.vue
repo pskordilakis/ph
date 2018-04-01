@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container mx-auto">
     <h1 class="text-indigo">{{message}}</h1>
     <counter></counter>
     <counter></counter>
