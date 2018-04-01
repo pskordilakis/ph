@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{message}}
+    <h1 class="text-indigo">{{message}}</h1>
     <counter></counter>
     <counter></counter>
   </div>
